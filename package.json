@@ -1,0 +1,23 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "react-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dougmcclurg/react-webpack-boilerplate"
+  },
+  "keywords": [
+    "react",
+    "webpack"
+  ],
+  "author": "dougmcclurg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dougmcclurg/react-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/dougmcclurg/react-webpack-boilerplate"
+}
