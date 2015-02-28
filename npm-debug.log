@@ -1,0 +1,454 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/boxen/nodenv/versions/v0.10.36/bin/node',
+1 verbose cli   '/opt/boxen/nodenv/versions/v0.10.36/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 warn package.json react-app@1.0.0 No README data
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/doug/Flatbattery/react-app',
+6 verbose install   [ 'react',
+6 verbose install     'http-server',
+6 verbose install     'jsx-loader',
+6 verbose install     'webpack',
+6 verbose install     'webpack-dev-server',
+6 verbose install     'cjsx-loader',
+6 verbose install     'coffee-loader',
+6 verbose install     'coffee-react-transform',
+6 verbose install     'coffee-script',
+6 verbose install     'coffeelint',
+6 verbose install     'coffeelint-use-strict' ] ]
+7 info preinstall react-app@1.0.0
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping webpack@^1.6.0 /Users/doug/Flatbattery/react-app
+10 verbose already installed skipping webpack-dev-server@^1.7.0 /Users/doug/Flatbattery/react-app
+11 verbose cache add [ 'cjsx-loader@1.2.0', null ]
+12 verbose cache add name=undefined spec="cjsx-loader@1.2.0" args=["cjsx-loader@1.2.0",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'cjsx-loader@1.2.0',
+13 verbose parsed url   path: 'cjsx-loader@1.2.0',
+13 verbose parsed url   href: 'cjsx-loader@1.2.0' }
+14 verbose cache add [ 'coffee-loader@0.7.2', null ]
+15 verbose cache add name=undefined spec="coffee-loader@0.7.2" args=["coffee-loader@0.7.2",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'coffee-loader@0.7.2',
+16 verbose parsed url   path: 'coffee-loader@0.7.2',
+16 verbose parsed url   href: 'coffee-loader@0.7.2' }
+17 verbose cache add [ 'coffee-react-transform@2.2.1', null ]
+18 verbose cache add name=undefined spec="coffee-react-transform@2.2.1" args=["coffee-react-transform@2.2.1",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'coffee-react-transform@2.2.1',
+19 verbose parsed url   path: 'coffee-react-transform@2.2.1',
+19 verbose parsed url   href: 'coffee-react-transform@2.2.1' }
+20 verbose cache add name="cjsx-loader" spec="1.2.0" args=["cjsx-loader","1.2.0"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '1.2.0',
+21 verbose parsed url   path: '1.2.0',
+21 verbose parsed url   href: '1.2.0' }
+22 verbose addNamed [ 'cjsx-loader', '1.2.0' ]
+23 verbose addNamed [ '1.2.0', '1.2.0' ]
+24 verbose cache add name="coffee-loader" spec="0.7.2" args=["coffee-loader","0.7.2"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '0.7.2',
+25 verbose parsed url   path: '0.7.2',
+25 verbose parsed url   href: '0.7.2' }
+26 verbose addNamed [ 'coffee-loader', '0.7.2' ]
+27 verbose addNamed [ '0.7.2', '0.7.2' ]
+28 verbose cache add [ 'coffee-script@1.8.0', null ]
+29 verbose cache add name=undefined spec="coffee-script@1.8.0" args=["coffee-script@1.8.0",null]
+30 verbose parsed url { protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: 'coffee-script@1.8.0',
+30 verbose parsed url   path: 'coffee-script@1.8.0',
+30 verbose parsed url   href: 'coffee-script@1.8.0' }
+31 verbose cache add name="coffee-react-transform" spec="2.2.1" args=["coffee-react-transform","2.2.1"]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: '2.2.1',
+32 verbose parsed url   path: '2.2.1',
+32 verbose parsed url   href: '2.2.1' }
+33 verbose addNamed [ 'coffee-react-transform', '2.2.1' ]
+34 verbose addNamed [ '2.2.1', '2.2.1' ]
+35 silly lockFile de87a3a4-cjsx-loader-1-2-0 cjsx-loader@1.2.0
+36 verbose lock cjsx-loader@1.2.0 /Users/doug/.npm/de87a3a4-cjsx-loader-1-2-0.lock
+37 silly lockFile 0a755577-coffee-loader-0-7-2 coffee-loader@0.7.2
+38 verbose lock coffee-loader@0.7.2 /Users/doug/.npm/0a755577-coffee-loader-0-7-2.lock
+39 silly lockFile 1859f729-coffee-react-transform-2-2-1 coffee-react-transform@2.2.1
+40 verbose lock coffee-react-transform@2.2.1 /Users/doug/.npm/1859f729-coffee-react-transform-2-2-1.lock
+41 verbose cache add [ 'coffeelint@1.8.1', null ]
+42 verbose cache add name=undefined spec="coffeelint@1.8.1" args=["coffeelint@1.8.1",null]
+43 verbose parsed url { protocol: null,
+43 verbose parsed url   slashes: null,
+43 verbose parsed url   auth: null,
+43 verbose parsed url   host: null,
+43 verbose parsed url   port: null,
+43 verbose parsed url   hostname: null,
+43 verbose parsed url   hash: null,
+43 verbose parsed url   search: null,
+43 verbose parsed url   query: null,
+43 verbose parsed url   pathname: 'coffeelint@1.8.1',
+43 verbose parsed url   path: 'coffeelint@1.8.1',
+43 verbose parsed url   href: 'coffeelint@1.8.1' }
+44 verbose cache add name="coffee-script" spec="1.8.0" args=["coffee-script","1.8.0"]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: '1.8.0',
+45 verbose parsed url   path: '1.8.0',
+45 verbose parsed url   href: '1.8.0' }
+46 verbose addNamed [ 'coffee-script', '1.8.0' ]
+47 verbose addNamed [ '1.8.0', '1.8.0' ]
+48 silly lockFile d0d79082-coffee-script-1-8-0 coffee-script@1.8.0
+49 verbose lock coffee-script@1.8.0 /Users/doug/.npm/d0d79082-coffee-script-1-8-0.lock
+50 verbose cache add [ 'coffeelint-use-strict@0.0.1', null ]
+51 verbose cache add name=undefined spec="coffeelint-use-strict@0.0.1" args=["coffeelint-use-strict@0.0.1",null]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: 'coffeelint-use-strict@0.0.1',
+52 verbose parsed url   path: 'coffeelint-use-strict@0.0.1',
+52 verbose parsed url   href: 'coffeelint-use-strict@0.0.1' }
+53 verbose already installed skipping react@^0.12.2 /Users/doug/Flatbattery/react-app
+54 verbose cache add name="coffeelint" spec="1.8.1" args=["coffeelint","1.8.1"]
+55 verbose parsed url { protocol: null,
+55 verbose parsed url   slashes: null,
+55 verbose parsed url   auth: null,
+55 verbose parsed url   host: null,
+55 verbose parsed url   port: null,
+55 verbose parsed url   hostname: null,
+55 verbose parsed url   hash: null,
+55 verbose parsed url   search: null,
+55 verbose parsed url   query: null,
+55 verbose parsed url   pathname: '1.8.1',
+55 verbose parsed url   path: '1.8.1',
+55 verbose parsed url   href: '1.8.1' }
+56 verbose addNamed [ 'coffeelint', '1.8.1' ]
+57 verbose addNamed [ '1.8.1', '1.8.1' ]
+58 silly lockFile 1b345267-coffeelint-1-8-1 coffeelint@1.8.1
+59 verbose lock coffeelint@1.8.1 /Users/doug/.npm/1b345267-coffeelint-1-8-1.lock
+60 verbose cache add name="coffeelint-use-strict" spec="0.0.1" args=["coffeelint-use-strict","0.0.1"]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: '0.0.1',
+61 verbose parsed url   path: '0.0.1',
+61 verbose parsed url   href: '0.0.1' }
+62 verbose addNamed [ 'coffeelint-use-strict', '0.0.1' ]
+63 verbose addNamed [ '0.0.1', '0.0.1' ]
+64 silly lockFile c06a9471-coffeelint-use-strict-0-0-1 coffeelint-use-strict@0.0.1
+65 verbose lock coffeelint-use-strict@0.0.1 /Users/doug/.npm/c06a9471-coffeelint-use-strict-0-0-1.lock
+66 verbose already installed skipping http-server@^0.7.5 /Users/doug/Flatbattery/react-app
+67 verbose already installed skipping jsx-loader@^0.12.2 /Users/doug/Flatbattery/react-app
+68 verbose request where is /coffee-react-transform
+69 verbose request registry https://registry.npmjs.org/
+70 verbose request id 730cab3f1c20528c
+71 verbose url raw /coffee-react-transform
+72 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-react-transform' ]
+73 verbose url resolved https://registry.npmjs.org/coffee-react-transform
+74 verbose request where is https://registry.npmjs.org/coffee-react-transform
+75 info trying registry request attempt 1 at 21:48:20
+76 verbose etag "73NRCZ8EOGQ4TIK751G2UWPYL"
+77 http GET https://registry.npmjs.org/coffee-react-transform
+78 verbose request where is /coffee-loader
+79 verbose request registry https://registry.npmjs.org/
+80 verbose url raw /coffee-loader
+81 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-loader' ]
+82 verbose url resolved https://registry.npmjs.org/coffee-loader
+83 verbose request where is https://registry.npmjs.org/coffee-loader
+84 info trying registry request attempt 1 at 21:48:20
+85 verbose etag "77AQTVR6LV3MK2DCZWT05LA8R"
+86 http GET https://registry.npmjs.org/coffee-loader
+87 verbose request where is /cjsx-loader
+88 verbose request registry https://registry.npmjs.org/
+89 verbose url raw /cjsx-loader
+90 verbose url resolving [ 'https://registry.npmjs.org/', './cjsx-loader' ]
+91 verbose url resolved https://registry.npmjs.org/cjsx-loader
+92 verbose request where is https://registry.npmjs.org/cjsx-loader
+93 info trying registry request attempt 1 at 21:48:20
+94 verbose etag "70FZ5NOFR8M1TO1DRLIMNRWMJ"
+95 http GET https://registry.npmjs.org/cjsx-loader
+96 verbose request where is /coffee-script
+97 verbose request registry https://registry.npmjs.org/
+98 verbose url raw /coffee-script
+99 verbose url resolving [ 'https://registry.npmjs.org/', './coffee-script' ]
+100 verbose url resolved https://registry.npmjs.org/coffee-script
+101 verbose request where is https://registry.npmjs.org/coffee-script
+102 info trying registry request attempt 1 at 21:48:20
+103 verbose etag "BFAFQ6FSBJCIMCUMD8L4RJ9EY"
+104 http GET https://registry.npmjs.org/coffee-script
+105 verbose request where is /coffeelint
+106 verbose request registry https://registry.npmjs.org/
+107 verbose url raw /coffeelint
+108 verbose url resolving [ 'https://registry.npmjs.org/', './coffeelint' ]
+109 verbose url resolved https://registry.npmjs.org/coffeelint
+110 verbose request where is https://registry.npmjs.org/coffeelint
+111 info trying registry request attempt 1 at 21:48:20
+112 verbose etag "3YGJ1K9N6W7LQA9324VCXFOS0"
+113 http GET https://registry.npmjs.org/coffeelint
+114 verbose request where is /coffeelint-use-strict
+115 verbose request registry https://registry.npmjs.org/
+116 verbose url raw /coffeelint-use-strict
+117 verbose url resolving [ 'https://registry.npmjs.org/', './coffeelint-use-strict' ]
+118 verbose url resolved https://registry.npmjs.org/coffeelint-use-strict
+119 verbose request where is https://registry.npmjs.org/coffeelint-use-strict
+120 info trying registry request attempt 1 at 21:48:20
+121 verbose etag "6GORR4D7A8G25QV9UMXEM70HF"
+122 http GET https://registry.npmjs.org/coffeelint-use-strict
+123 http 200 https://registry.npmjs.org/coffee-script
+124 silly registry.get cb [ 200,
+124 silly registry.get   { date: 'Sat, 28 Feb 2015 10:48:21 GMT',
+124 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+124 silly registry.get     etag: '"6TK5YW5Q9CXH8GS4HAF7FLTQ1"',
+124 silly registry.get     'content-type': 'application/json',
+124 silly registry.get     'cache-control': 'max-age=60',
+124 silly registry.get     'content-length': '35881',
+124 silly registry.get     'accept-ranges': 'bytes',
+124 silly registry.get     via: '1.1 varnish',
+124 silly registry.get     age: '0',
+124 silly registry.get     'x-served-by': 'cache-syd1623-SYD',
+124 silly registry.get     'x-cache': 'HIT',
+124 silly registry.get     'x-cache-hits': '1',
+124 silly registry.get     'x-timer': 'S1425120500.813780,VS0,VE759',
+124 silly registry.get     vary: 'Accept',
+124 silly registry.get     'keep-alive': 'timeout=10, max=50',
+124 silly registry.get     connection: 'Keep-Alive' } ]
+125 silly lockFile ca39aec5-e-script-coffee-script-1-8-0-tgz https://registry.npmjs.org/coffee-script/-/coffee-script-1.8.0.tgz
+126 verbose lock https://registry.npmjs.org/coffee-script/-/coffee-script-1.8.0.tgz /Users/doug/.npm/ca39aec5-e-script-coffee-script-1-8-0-tgz.lock
+127 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffee-script/-/coffee-script-1.8.0.tgz',
+127 verbose addRemoteTarball   '9c9f1d2b4a52a000ded15b659791703648263c1d' ]
+128 info retry fetch attempt 1 at 21:48:21
+129 verbose fetch to= /var/folders/wy/ynrljxcn5ng__7k13lk6tjvm0000gn/T/npm-52967-Pf9N6o8a/registry.npmjs.org/coffee-script/-/coffee-script-1.8.0.tgz
+130 http GET https://registry.npmjs.org/coffee-script/-/coffee-script-1.8.0.tgz
+131 http 200 https://registry.npmjs.org/coffeelint
+132 silly registry.get cb [ 200,
+132 silly registry.get   { date: 'Sat, 28 Feb 2015 10:48:21 GMT',
+132 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+132 silly registry.get     etag: '"B8CKOW4FW8J09QP7YCMS47H5B"',
+132 silly registry.get     'content-type': 'application/json',
+132 silly registry.get     'cache-control': 'max-age=60',
+132 silly registry.get     'content-length': '87088',
+132 silly registry.get     'accept-ranges': 'bytes',
+132 silly registry.get     via: '1.1 varnish',
+132 silly registry.get     age: '0',
+132 silly registry.get     'x-served-by': 'cache-syd1623-SYD',
+132 silly registry.get     'x-cache': 'HIT',
+132 silly registry.get     'x-cache-hits': '1',
+132 silly registry.get     'x-timer': 'S1425120500.844224,VS0,VE757',
+132 silly registry.get     vary: 'Accept',
+132 silly registry.get     'keep-alive': 'timeout=10, max=50',
+132 silly registry.get     connection: 'Keep-Alive' } ]
+133 http 304 https://registry.npmjs.org/coffee-loader
+134 silly registry.get cb [ 304,
+134 silly registry.get   { date: 'Sat, 28 Feb 2015 10:48:20 GMT',
+134 silly registry.get     server: 'Apache',
+134 silly registry.get     via: '1.1 varnish',
+134 silly registry.get     'last-modified': 'Sat, 28 Feb 2015 10:48:21 GMT',
+134 silly registry.get     'cache-control': 'max-age=60',
+134 silly registry.get     etag: '"77AQTVR6LV3MK2DCZWT05LA8R"',
+134 silly registry.get     age: '0',
+134 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+134 silly registry.get     'x-cache': 'MISS',
+134 silly registry.get     'x-cache-hits': '0',
+134 silly registry.get     'x-timer': 'S1425120500.818218,VS0,VE948',
+134 silly registry.get     vary: 'Accept',
+134 silly registry.get     'content-length': '0',
+134 silly registry.get     'keep-alive': 'timeout=10, max=50',
+134 silly registry.get     connection: 'Keep-Alive' } ]
+135 verbose etag https://registry.npmjs.org/coffee-loader from cache
+136 silly lockFile e31257ba--coffeelint-coffeelint-1-8-1-tgz https://registry.npmjs.org/coffeelint/-/coffeelint-1.8.1.tgz
+137 verbose lock https://registry.npmjs.org/coffeelint/-/coffeelint-1.8.1.tgz /Users/doug/.npm/e31257ba--coffeelint-coffeelint-1-8-1-tgz.lock
+138 silly lockFile f45e6b03-e-loader-coffee-loader-0-7-2-tgz https://registry.npmjs.org/coffee-loader/-/coffee-loader-0.7.2.tgz
+139 verbose lock https://registry.npmjs.org/coffee-loader/-/coffee-loader-0.7.2.tgz /Users/doug/.npm/f45e6b03-e-loader-coffee-loader-0-7-2-tgz.lock
+140 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffeelint/-/coffeelint-1.8.1.tgz',
+140 verbose addRemoteTarball   '847910a4c7dea424620255c3babea13ea1880705' ]
+141 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffee-loader/-/coffee-loader-0.7.2.tgz',
+141 verbose addRemoteTarball   '4d3699af8a806312db3207385a842f497c1bd6fd' ]
+142 info retry fetch attempt 1 at 21:48:21
+143 verbose fetch to= /var/folders/wy/ynrljxcn5ng__7k13lk6tjvm0000gn/T/npm-52967-Pf9N6o8a/registry.npmjs.org/coffeelint/-/coffeelint-1.8.1.tgz
+144 http GET https://registry.npmjs.org/coffeelint/-/coffeelint-1.8.1.tgz
+145 info retry fetch attempt 1 at 21:48:21
+146 verbose fetch to= /var/folders/wy/ynrljxcn5ng__7k13lk6tjvm0000gn/T/npm-52967-Pf9N6o8a/registry.npmjs.org/coffee-loader/-/coffee-loader-0.7.2.tgz
+147 http GET https://registry.npmjs.org/coffee-loader/-/coffee-loader-0.7.2.tgz
+148 http 200 https://registry.npmjs.org/cjsx-loader
+149 silly registry.get cb [ 200,
+149 silly registry.get   { date: 'Sat, 28 Feb 2015 10:48:21 GMT',
+149 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+149 silly registry.get     etag: '"C7E6HWKCNSR4N3F8YBVFBDG5S"',
+149 silly registry.get     'content-type': 'application/json',
+149 silly registry.get     'cache-control': 'max-age=60',
+149 silly registry.get     'content-length': '12334',
+149 silly registry.get     'accept-ranges': 'bytes',
+149 silly registry.get     via: '1.1 varnish',
+149 silly registry.get     age: '0',
+149 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+149 silly registry.get     'x-cache': 'MISS',
+149 silly registry.get     'x-cache-hits': '0',
+149 silly registry.get     'x-timer': 'S1425120500.823512,VS0,VE947',
+149 silly registry.get     vary: 'Accept',
+149 silly registry.get     'keep-alive': 'timeout=10, max=50',
+149 silly registry.get     connection: 'Keep-Alive' } ]
+150 silly lockFile 43c9614e-jsx-loader-cjsx-loader-1-2-0-tgz https://registry.npmjs.org/cjsx-loader/-/cjsx-loader-1.2.0.tgz
+151 verbose lock https://registry.npmjs.org/cjsx-loader/-/cjsx-loader-1.2.0.tgz /Users/doug/.npm/43c9614e-jsx-loader-cjsx-loader-1-2-0-tgz.lock
+152 verbose addRemoteTarball [ 'https://registry.npmjs.org/cjsx-loader/-/cjsx-loader-1.2.0.tgz',
+152 verbose addRemoteTarball   '7f3ce418b65153d073c71756fd7d61e7f7f217d3' ]
+153 info retry fetch attempt 1 at 21:48:21
+154 verbose fetch to= /var/folders/wy/ynrljxcn5ng__7k13lk6tjvm0000gn/T/npm-52967-Pf9N6o8a/registry.npmjs.org/cjsx-loader/-/cjsx-loader-1.2.0.tgz
+155 http GET https://registry.npmjs.org/cjsx-loader/-/cjsx-loader-1.2.0.tgz
+156 http 304 https://registry.npmjs.org/coffee-react-transform
+157 silly registry.get cb [ 304,
+157 silly registry.get   { date: 'Sat, 28 Feb 2015 10:48:20 GMT',
+157 silly registry.get     server: 'Apache',
+157 silly registry.get     via: '1.1 varnish',
+157 silly registry.get     'last-modified': 'Sat, 28 Feb 2015 10:48:21 GMT',
+157 silly registry.get     'cache-control': 'max-age=60',
+157 silly registry.get     etag: '"73NRCZ8EOGQ4TIK751G2UWPYL"',
+157 silly registry.get     age: '0',
+157 silly registry.get     'x-served-by': 'cache-syd1623-SYD',
+157 silly registry.get     'x-cache': 'MISS',
+157 silly registry.get     'x-cache-hits': '0',
+157 silly registry.get     'x-timer': 'S1425120500.840539,VS0,VE954',
+157 silly registry.get     vary: 'Accept',
+157 silly registry.get     'content-length': '0',
+157 silly registry.get     'keep-alive': 'timeout=10, max=50',
+157 silly registry.get     connection: 'Keep-Alive' } ]
+158 verbose etag https://registry.npmjs.org/coffee-react-transform from cache
+159 silly lockFile b78079f3-coffee-react-transform-2-2-1-tgz https://registry.npmjs.org/coffee-react-transform/-/coffee-react-transform-2.2.1.tgz
+160 verbose lock https://registry.npmjs.org/coffee-react-transform/-/coffee-react-transform-2.2.1.tgz /Users/doug/.npm/b78079f3-coffee-react-transform-2-2-1-tgz.lock
+161 verbose addRemoteTarball [ 'https://registry.npmjs.org/coffee-react-transform/-/coffee-react-transform-2.2.1.tgz',
+161 verbose addRemoteTarball   '21cce77506778c514220cba74f5fe8cb93db7e4a' ]
+162 info retry fetch attempt 1 at 21:48:21
+163 verbose fetch to= /var/folders/wy/ynrljxcn5ng__7k13lk6tjvm0000gn/T/npm-52967-Pf9N6o8a/registry.npmjs.org/coffee-react-transform/-/coffee-react-transform-2.2.1.tgz
+164 http GET https://registry.npmjs.org/coffee-react-transform/-/coffee-react-transform-2.2.1.tgz
+165 http 200 https://registry.npmjs.org/coffee-script/-/coffee-script-1.8.0.tgz
+166 http 304 https://registry.npmjs.org/coffeelint-use-strict
+167 silly registry.get cb [ 304,
+167 silly registry.get   { date: 'Sat, 28 Feb 2015 10:48:21 GMT',
+167 silly registry.get     server: 'Apache',
+167 silly registry.get     via: '1.1 varnish',
+167 silly registry.get     'last-modified': 'Sat, 28 Feb 2015 10:48:21 GMT',
+167 silly registry.get     'cache-control': 'max-age=60',
+167 silly registry.get     etag: '"6GORR4D7A8G25QV9UMXEM70HF"',
+167 silly registry.get     age: '0',
+167 silly registry.get     'x-served-by': 'cache-syd1623-SYD',
+167 silly registry.get     'x-cache': 'MISS',
+167 silly registry.get     'x-cache-hits': '0',
+167 silly registry.get     'x-timer': 'S1425120501.739369,VS0,VE236',
+167 silly registry.get     vary: 'Accept',
+167 silly registry.get     'content-length': '0',
+167 silly registry.get     'keep-alive': 'timeout=10, max=49',
+167 silly registry.get     connection: 'Keep-Alive' } ]
+168 verbose etag https://registry.npmjs.org/coffeelint-use-strict from cache
+169 silly lockFile c06a9471-coffeelint-use-strict-0-0-1 coffeelint-use-strict@0.0.1
+170 silly lockFile c06a9471-coffeelint-use-strict-0-0-1 coffeelint-use-strict@0.0.1
+171 silly lockFile ca39aec5-e-script-coffee-script-1-8-0-tgz https://registry.npmjs.org/coffee-script/-/coffee-script-1.8.0.tgz
+172 silly lockFile ca39aec5-e-script-coffee-script-1-8-0-tgz https://registry.npmjs.org/coffee-script/-/coffee-script-1.8.0.tgz
+173 silly lockFile d0d79082-coffee-script-1-8-0 coffee-script@1.8.0
+174 silly lockFile d0d79082-coffee-script-1-8-0 coffee-script@1.8.0
+175 http 200 https://registry.npmjs.org/cjsx-loader/-/cjsx-loader-1.2.0.tgz
+176 silly lockFile 43c9614e-jsx-loader-cjsx-loader-1-2-0-tgz https://registry.npmjs.org/cjsx-loader/-/cjsx-loader-1.2.0.tgz
+177 silly lockFile 43c9614e-jsx-loader-cjsx-loader-1-2-0-tgz https://registry.npmjs.org/cjsx-loader/-/cjsx-loader-1.2.0.tgz
+178 silly lockFile de87a3a4-cjsx-loader-1-2-0 cjsx-loader@1.2.0
+179 silly lockFile de87a3a4-cjsx-loader-1-2-0 cjsx-loader@1.2.0
+180 http 200 https://registry.npmjs.org/coffee-loader/-/coffee-loader-0.7.2.tgz
+181 silly lockFile f45e6b03-e-loader-coffee-loader-0-7-2-tgz https://registry.npmjs.org/coffee-loader/-/coffee-loader-0.7.2.tgz
+182 silly lockFile f45e6b03-e-loader-coffee-loader-0-7-2-tgz https://registry.npmjs.org/coffee-loader/-/coffee-loader-0.7.2.tgz
+183 silly lockFile 0a755577-coffee-loader-0-7-2 coffee-loader@0.7.2
+184 silly lockFile 0a755577-coffee-loader-0-7-2 coffee-loader@0.7.2
+185 http 400 https://registry.npmjs.org/coffeelint/-/coffeelint-1.8.1.tgz
+186 error fetch failed https://registry.npmjs.org/coffeelint/-/coffeelint-1.8.1.tgz
+187 silly lockFile e31257ba--coffeelint-coffeelint-1-8-1-tgz https://registry.npmjs.org/coffeelint/-/coffeelint-1.8.1.tgz
+188 silly lockFile e31257ba--coffeelint-coffeelint-1-8-1-tgz https://registry.npmjs.org/coffeelint/-/coffeelint-1.8.1.tgz
+189 silly lockFile 1b345267-coffeelint-1-8-1 coffeelint@1.8.1
+190 silly lockFile 1b345267-coffeelint-1-8-1 coffeelint@1.8.1
+191 http 200 https://registry.npmjs.org/coffee-react-transform/-/coffee-react-transform-2.2.1.tgz
+192 silly lockFile b78079f3-coffee-react-transform-2-2-1-tgz https://registry.npmjs.org/coffee-react-transform/-/coffee-react-transform-2.2.1.tgz
+193 silly lockFile b78079f3-coffee-react-transform-2-2-1-tgz https://registry.npmjs.org/coffee-react-transform/-/coffee-react-transform-2.2.1.tgz
+194 silly lockFile 1859f729-coffee-react-transform-2-2-1 coffee-react-transform@2.2.1
+195 silly lockFile 1859f729-coffee-react-transform-2-2-1 coffee-react-transform@2.2.1
+196 error Error: 400 Bad Request
+196 error     at WriteStream.<anonymous> (/opt/boxen/nodenv/versions/v0.10.36/lib/node_modules/npm/lib/utils/fetch.js:58:12)
+196 error     at WriteStream.emit (events.js:117:20)
+196 error     at evalmachine.<anonymous>:1610:14
+196 error     at /opt/boxen/nodenv/versions/v0.10.36/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+196 error     at Object.oncomplete (evalmachine.<anonymous>:108:15)
+197 error If you need help, you may report this *entire* log,
+197 error including the npm and node versions, at:
+197 error     <http://github.com/npm/npm/issues>
+198 error System Darwin 14.1.0
+199 error command "/opt/boxen/nodenv/versions/v0.10.36/bin/node" "/opt/boxen/nodenv/versions/v0.10.36/bin/npm" "install"
+200 error cwd /Users/doug/Flatbattery/react-app
+201 error node -v v0.10.36
+202 error npm -v 1.4.28
+203 verbose exit [ 1, true ]
